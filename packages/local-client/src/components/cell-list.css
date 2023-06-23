@@ -1,0 +1,11 @@
+/* .cell-list{
+    margin: 0 60px 20vh;
+} */
+
+.cell-list {
+  margin: 0 10% 20vh;
+}
+
+.react-draggable-transparent-selection .cell-list {
+  margin-bottom: 100vh;
+}

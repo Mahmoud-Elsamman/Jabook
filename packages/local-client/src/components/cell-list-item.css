@@ -1,0 +1,14 @@
+.cell-list-item {
+  position: relative;
+  /* margin: 40px 10px; */
+}
+
+.action-bar-wrapper {
+  height: 30px;
+  width: 100%;
+  background-color: #37414b;
+}
+
+.card-content {
+  padding: 2.5rem 1.5rem 2rem 1.5rem;
+}
