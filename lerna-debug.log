@@ -8,29 +8,29 @@
 0 silly argv }
 1 notice cli v3.22.1
 2 verbose rootPath E:\My Files\JBook Project\jabook
-3 verbose session 4ff41b8c125b7334
+3 verbose session b5156bfc397c127a
 4 verbose user-agent lerna/3.22.1/node@v16.15.1+x64 (win32)
-5 verbose git-describe undefined => "v1.0.1-2-g18e521b"
-6 silly git-describe parsed => {"lastTagName":"v1.0.1","lastVersion":"v1.0.1","refCount":"2","sha":"18e521b","isDirty":false}
+5 verbose git-describe undefined => "v1.0.1-3-g13551cc"
+6 silly git-describe parsed => {"lastTagName":"v1.0.1","lastVersion":"v1.0.1","refCount":"3","sha":"13551cc","isDirty":false}
 7 silly getUnpublishedPackages
 8 info publish Publishing packages to npm...
 9 info Verifying npm credentials
 10 verbose Retrieving npm user profile
-11 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 583ms
+11 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1797ms
 12 silly npm profile get received {"tfa":{"pending":true,"mode":"auth-and-writes"},"name":"mahmoud_gamal","email":"mahmoud.elsamman97@gmail.com","email_verified":true,"created":"2023-06-21T12:58:46.645Z","updated":"2023-06-21T13:23:22.410Z","cidr_whitelist":null,"github":"Mahmoud-Elsamman"}
 13 silly get npm username received {"username":"mahmoud_gamal","tfa":{"pending":true,"mode":"auth-and-writes"},"name":"mahmoud_gamal","email":"mahmoud.elsamman97@gmail.com","email_verified":true,"created":"2023-06-21T12:58:46.645Z","updated":"2023-06-21T13:23:22.410Z","cidr_whitelist":null,"github":"Mahmoud-Elsamman"}
 14 silly verifyNpmPackageAccess
-15 http fetch GET 200 https://registry.npmjs.org/-/org/mahmoud_gamal/package?format=cli 546ms
+15 http fetch GET 200 https://registry.npmjs.org/-/org/mahmoud_gamal/package?format=cli 933ms
 16 info Checking two-factor auth mode
 17 verbose Retrieving npm user profile
-18 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 588ms
+18 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 656ms
 19 silly npm profile get received {"tfa":{"pending":true,"mode":"auth-and-writes"},"name":"mahmoud_gamal","email":"mahmoud.elsamman97@gmail.com","email_verified":true,"created":"2023-06-21T12:58:46.645Z","updated":"2023-06-21T13:23:22.410Z","cidr_whitelist":null,"github":"Mahmoud-Elsamman"}
 20 silly 2FA { pending: true, mode: 'auth-and-writes' }
 21 warn ENOLICENSE Packages jabook, @jabook/local-api, and @jabook/local-client are missing a license.
 21 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
 21 warn ENOLICENSE See https://choosealicense.com for additional guidance.
 22 silly getCurrentSHA
-23 verbose getCurrentSHA 18e521b8a039a389b02428e224b6e150fdbd7576
+23 verbose getCurrentSHA 13551ccad08f506baf98c8a7734a1c0f8cdf7c71
 24 silly lifecycle No script for "prepublish" in "root", continuing
 25 silly lifecycle No script for "prepare" in "root", continuing
 26 silly lifecycle No script for "prepublishOnly" in "root", continuing
