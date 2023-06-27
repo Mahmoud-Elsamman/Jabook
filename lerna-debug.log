@@ -1,0 +1,97 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   push: false,
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'C:\\Users\\Mahmoud Gamal\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   bump: 'from-package'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath E:\My Files\JBook Project\jabook
+3 verbose session 84cadb6149a6f7bf
+4 verbose user-agent lerna/3.22.1/node@v16.15.1+x64 (win32)
+5 verbose git-describe undefined => "v1.1.0-0-gbebe5d3"
+6 silly git-describe parsed => {"lastTagName":"v1.1.0","lastVersion":"v1.1.0","refCount":"0","sha":"bebe5d3","isDirty":false}
+7 silly getUnpublishedPackages
+8 warn Unable to determine published version, assuming "jabook" unpublished.
+9 warn Unable to determine published version, assuming "@jabook/local-client" unpublished.
+10 warn Unable to determine published version, assuming "@jabook/local-api" unpublished.
+11 info publish Publishing packages to npm...
+12 info Verifying npm credentials
+13 verbose Retrieving npm user profile
+14 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 759ms
+15 silly npm profile get received {"tfa":{"pending":true,"mode":"auth-and-writes"},"name":"mahmoud_gamal","email":"mahmoud.elsamman97@gmail.com","email_verified":true,"created":"2023-06-21T12:58:46.645Z","updated":"2023-06-21T13:23:22.410Z","cidr_whitelist":null,"github":"Mahmoud-Elsamman"}
+16 silly get npm username received {"username":"mahmoud_gamal","tfa":{"pending":true,"mode":"auth-and-writes"},"name":"mahmoud_gamal","email":"mahmoud.elsamman97@gmail.com","email_verified":true,"created":"2023-06-21T12:58:46.645Z","updated":"2023-06-21T13:23:22.410Z","cidr_whitelist":null,"github":"Mahmoud-Elsamman"}
+17 silly verifyNpmPackageAccess
+18 http fetch GET 200 https://registry.npmjs.org/-/org/mahmoud_gamal/package?format=cli 384ms
+19 info Checking two-factor auth mode
+20 verbose Retrieving npm user profile
+21 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 451ms
+22 silly npm profile get received {"tfa":{"pending":true,"mode":"auth-and-writes"},"name":"mahmoud_gamal","email":"mahmoud.elsamman97@gmail.com","email_verified":true,"created":"2023-06-21T12:58:46.645Z","updated":"2023-06-21T13:23:22.410Z","cidr_whitelist":null,"github":"Mahmoud-Elsamman"}
+23 silly 2FA { pending: true, mode: 'auth-and-writes' }
+24 warn ENOLICENSE Packages jabook, @jabook/local-api, and @jabook/local-client are missing a license.
+24 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+24 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+25 silly getCurrentSHA
+26 verbose getCurrentSHA bebe5d3bf4077f8bd6430f57fe6f7279c7b67173
+27 silly lifecycle No script for "prepublish" in "root", continuing
+28 silly lifecycle No script for "prepare" in "root", continuing
+29 silly lifecycle No script for "prepublishOnly" in "root", continuing
+30 silly lifecycle No script for "prepack" in "root", continuing
+31 verbose pack-directory packages\local-client
+32 silly lifecycle No script for "prepublish" in "@jabook/local-client", continuing
+33 silly lifecycle No script for "prepare" in "@jabook/local-client", continuing
+34 silly lifecycle "prepublishOnly" starting in "@jabook/local-client"
+35 info lifecycle @jabook/local-client@1.1.0~prepublishOnly: @jabook/local-client@1.1.0
+36 verbose lifecycle @jabook/local-client@1.1.0~prepublishOnly: unsafe-perm in lifecycle true
+37 verbose lifecycle @jabook/local-client@1.1.0~prepublishOnly: PATH: C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\npm-lifecycle\node-gyp-bin;E:\My Files\JBook Project\jabook\packages\local-client\node_modules\.bin;C:\Users\Mahmoud Gamal\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mahmoud Gamal\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\IncrediBuild;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\DTS\Binn;C:\Program Files (x86)\dotnet;C:\Program Files\mingw-w64\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\opencv\build\x64\vc15\bin;C:\stripe;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\Mahmoud Gamal\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\Mahmoud Gamal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mahmoud Gamal\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+38 verbose lifecycle @jabook/local-client@1.1.0~prepublishOnly: CWD: E:\My Files\JBook Project\jabook\packages\local-client
+39 silly lifecycle @jabook/local-client@1.1.0~prepublishOnly: Args: [ '/d /s /c', 'npm run build' ]
+40 silly lifecycle @jabook/local-client@1.1.0~prepublishOnly: Returned: code: 0  signal: null
+41 silly lifecycle "prepublishOnly" finished in "@jabook/local-client"
+42 silly lifecycle No script for "prepack" in "@jabook/local-client", continuing
+43 silly lifecycle No script for "postpack" in "@jabook/local-client", continuing
+44 verbose packed packages\local-client
+45 verbose pack-directory packages\cli
+46 verbose pack-directory packages\local-api
+47 silly lifecycle No script for "prepublish" in "jabook", continuing
+48 silly lifecycle No script for "prepublish" in "@jabook/local-api", continuing
+49 silly lifecycle No script for "prepare" in "jabook", continuing
+50 silly lifecycle No script for "prepare" in "@jabook/local-api", continuing
+51 silly lifecycle "prepublishOnly" starting in "@jabook/local-api"
+52 info lifecycle @jabook/local-api@1.1.0~prepublishOnly: @jabook/local-api@1.1.0
+53 verbose lifecycle @jabook/local-api@1.1.0~prepublishOnly: unsafe-perm in lifecycle true
+54 verbose lifecycle @jabook/local-api@1.1.0~prepublishOnly: PATH: C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\npm-lifecycle\node-gyp-bin;E:\My Files\JBook Project\jabook\packages\local-api\node_modules\.bin;C:\Users\Mahmoud Gamal\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mahmoud Gamal\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\IncrediBuild;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\DTS\Binn;C:\Program Files (x86)\dotnet;C:\Program Files\mingw-w64\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\opencv\build\x64\vc15\bin;C:\stripe;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\Mahmoud Gamal\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\Mahmoud Gamal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mahmoud Gamal\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+55 verbose lifecycle @jabook/local-api@1.1.0~prepublishOnly: CWD: E:\My Files\JBook Project\jabook\packages\local-api
+56 silly lifecycle @jabook/local-api@1.1.0~prepublishOnly: Args: [ '/d /s /c', 'tsc' ]
+57 silly lifecycle "prepublishOnly" starting in "jabook"
+58 info lifecycle jabook@1.1.0~prepublishOnly: jabook@1.1.0
+59 silly lifecycle @jabook/local-api@1.1.0~prepublishOnly: Returned: code: 0  signal: null
+60 verbose lifecycle jabook@1.1.0~prepublishOnly: unsafe-perm in lifecycle true
+61 verbose lifecycle jabook@1.1.0~prepublishOnly: PATH: C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\npm-lifecycle\node-gyp-bin;E:\My Files\JBook Project\jabook\packages\cli\node_modules\.bin;C:\Users\Mahmoud Gamal\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mahmoud Gamal\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\IncrediBuild;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\DTS\Binn;C:\Program Files (x86)\dotnet;C:\Program Files\mingw-w64\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\opencv\build\x64\vc15\bin;C:\stripe;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\Mahmoud Gamal\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\Mahmoud Gamal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mahmoud Gamal\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+62 verbose lifecycle jabook@1.1.0~prepublishOnly: CWD: E:\My Files\JBook Project\jabook\packages\cli
+63 silly lifecycle jabook@1.1.0~prepublishOnly: Args: [
+63 silly lifecycle   '/d /s /c',
+63 silly lifecycle   'esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\"production\\"'
+63 silly lifecycle ]
+64 silly lifecycle "prepublishOnly" finished in "@jabook/local-api"
+65 silly lifecycle No script for "prepack" in "@jabook/local-api", continuing
+66 silly lifecycle No script for "postpack" in "@jabook/local-api", continuing
+67 verbose packed packages\local-api
+68 silly lifecycle jabook@1.1.0~prepublishOnly: Returned: code: 0  signal: null
+69 silly lifecycle "prepublishOnly" finished in "jabook"
+70 silly lifecycle No script for "prepack" in "jabook", continuing
+71 error ZlibError: zlib: unexpected end of file
+71 error     at Unzip.write (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\minizlib\index.js:147:22)
+71 error     at Unzip.flush (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\minizlib\index.js:98:10)
+71 error     at Unzip.end (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\minizlib\index.js:104:10)
+71 error     at Object.end (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\tar\lib\parse.js:421:21)
+71 error     at Yallist.<anonymous> (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass\index.js:394:18)
+71 error     at Yallist.forEach (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\yallist\yallist.js:156:8)
+71 error     at ReadStream.emit (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass\index.js:391:18)
+71 error     at ReadStream.emit (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:154:22)
+71 error     at ReadStream.[maybeEmitEnd] (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass\index.js:355:12)
+71 error     at ReadStream.end (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\minipass\index.js:235:27)
+71 error     at ReadStream.[_handleChunk] (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:136:13)
+71 error     at ReadStream.[_onread] (C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:109:32)
+71 error     at C:\Users\Mahmoud Gamal\AppData\Roaming\npm\node_modules\lerna\node_modules\fs-minipass\index.js:101:22
