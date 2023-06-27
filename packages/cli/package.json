@@ -1,6 +1,6 @@
 {
   "name": "jabook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jabook/local-client": "^1.0.0"
+    "@jabook/local-client": "^1.0.1"
   },
   "devDependencies": {
-    "@jabook/local-api": "^1.0.0",
+    "@jabook/local-api": "^1.0.1",
     "@types/node": "^18.15.11",
     "commander": "^10.0.0",
     "esbuild": "0.8.26",
